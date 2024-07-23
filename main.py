@@ -40,7 +40,7 @@ if path == "":
         path = inp
 
 if file_name == "":
-    inp = input("Regex to match the file name (default: ^([\\d]*)_([\\d]*): ")
+    inp = input("Regex to match the file name (default: ^([\\d]*)_([\\d]*) ): ")
     if inp == "":
         file_name = def_file_name
     else:
